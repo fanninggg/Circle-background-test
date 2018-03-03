@@ -1,0 +1,54 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background: #FFEEEE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D0CCB4, #E8E5D5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D0CCB4, #E8E5D5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+
+.logo-circle-holder {
+  display: flex;
+  justify-content: space-around;
+}
+.logo-circle {
+  margin-top: 20px;
+  margin-bottom: -220px;
+  z-index: 3;
+}
+.logo-circle-img {
+  height: 400px;
+  width: 400px;
+}
+.title-circle-holder {
+  display: flex;
+  justify-content: space-around;
+}
+.title-circle {
+  z-index: 0;
+}
+.title-circle-img {
+  border-radius: 50%;
+  height: 1000px;
+  width: 1000px;
+  box-shadow: 0 0 10px #EEEED5;
+  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url("http://c8.alamy.com/comp/HNHDXD/view-from-below-to-a-concrete-overpass-HNHDXD.jpg");
+}
+.text {
+  text-align: center;
+  margin-top: -600px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.lines {
+  margin-bottom: -350px;
+  z-index: 5;
+}
+hr.style12 {
+  margin: 0;
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+  z-index: 5;
+}
